@@ -7,6 +7,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: blog-posts
+  cancel-in-progress: true
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -17,5 +21,5 @@ jobs:
           gh_token: ${{ github.token }}
           feed_list: 'https://tix.xin/rss.xml'
           max_post_count: 5
-          template: '- [$title]($url) · $date'
+          template: '- [$title]($url) · $date$newline'
           date_format: 'yyyy-mm-dd'
