@@ -6,4 +6,4 @@
 
 <img src="https://skillicons.dev/icons?i=nuxt,vue,ts,nestjs,postgres,docker&perline=6" height="40" alt="Nuxt · Vue · TypeScript · NestJS · PostgreSQL · Docker" />
 
-<a href="https://tix.xin"><img src="./assets/tixxinblog-showcase.png" alt="TixXinBlog 深色主题的文章列表与侧栏" width="100%" /></a>
+<a href="https://tix.xin"><img src="https://raw.githubusercontent.com/TixXin/TixXin/main/assets/tixxinblog-showcase.png?v=2" alt="TixXinBlog 深色主题的文章列表与侧栏" width="100%" /></a>
