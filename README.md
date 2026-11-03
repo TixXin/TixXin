@@ -5,7 +5,7 @@
 -->
 
 <div align="center">
-  <img src="https://github.com/TixXin.png?size=200" width="104" alt="TixXin" />
+  <img src="https://avatars.githubusercontent.com/u/39865687?s=200&amp;v=4" width="104" height="104" alt="TixXin" />
 
   <h1>TixXin</h1>
 
