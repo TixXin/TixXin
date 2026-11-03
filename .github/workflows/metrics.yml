@@ -22,13 +22,18 @@ jobs:
           user: TixXin
           filename: github-metrics.svg
           template: classic
-          base: header, activity, community, repositories
+          # 贡献日历主页已有原生版本，这里只保留“数字型”信息
+          base: header, activity, community
+          # 不指定时只会统计本仓库自身（会出现 1 repository / 0 languages）
+          repositories: >-
+            TixXin/TixXinBlog,
+            TixXin/nuxt-theme-engine,
+            TixXin/VExForm,
+            TixXin/cursor-api-testing-mcp,
+            TixXin/obsidian-chinese-wordcount,
+            TixXin/chatheadsYG-Minecraft1.12.2
           config_timezone: Asia/Singapore
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_details: lines, bytes-size
           plugin_languages_limit: 6
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_lines: yes
+          plugin_languages_sections: most-used
