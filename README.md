@@ -27,7 +27,7 @@
 
 - 🔭 目前在打磨 **[TixXinBlog](https://github.com/TixXin/TixXinBlog)**：公开站点与创作后台合在一处、一条命令部署的自托管博客系统。
 - 🧩 顺手维护几件 Nuxt 基础设施：[主题引擎](https://github.com/TixXin/nuxt-theme-engine)、[起步模板](https://github.com/TixXin/nuxt-base-template)。
-- 🛠️ 也写点小东西：MCP 工具、Minecraft 模组、C# 界面库。
+- 🛠️ 也写点小东西：MCP 工具、Minecraft 模组。
 - ✍️ 在 [tix.xin](https://tix.xin) 记录 Nuxt / Vue / TypeScript 的实践，[RSS](https://tix.xin/rss.xml) 可订阅。
 
 ### 精选
@@ -37,7 +37,6 @@
 | **[TixXinBlog](https://github.com/TixXin/TixXinBlog)** | 为一个人写的博客系统 · Nuxt 4 + NestJS 11 + PostgreSQL 16，三套主题、明暗配色、一条命令部署 · [在线](https://tix.xin) |
 | **[nuxt-theme-engine](https://github.com/TixXin/nuxt-theme-engine)** | Nuxt 4 主题引擎：主题继承、运行时组件分发、类型安全契约与自定义契约入口 |
 | **[cursor-api-testing-mcp](https://github.com/TixXin/cursor-api-testing-mcp)** | 专为 Cursor 设计的轻量 API 接口测试 MCP Server |
-| **[VExForm](https://github.com/TixXin/VExForm)** | C# WinForm 简约界面库 |
 
 <p align="center">
   <a href="https://tix.xin">
