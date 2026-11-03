@@ -23,3 +23,5 @@ jobs:
           max_post_count: 5
           template: '- [$title]($url) · $date$newline'
           date_format: 'yyyy-mm-dd'
+          # 标记与首行之间没有换行会导致第一条被当成纯文本
+          tag_post_pre_newline: true
